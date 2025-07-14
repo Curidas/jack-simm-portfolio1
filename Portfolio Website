@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jack Simm Portfolio</title>
+  <style>
+    :root {
+      --bg: #121212;
+      --fg: #ffffff;
+      --accent: #00bfa6;
+      --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: var(--font);
+      background-color: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+      padding-bottom: 60px;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: var(--accent);
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      background-color: #1e1e1e;
+    }
+    nav a {
+      color: var(--fg);
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.2s ease;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 1.8rem;
+      margin-bottom: 16px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+    .project {
+      border-left: 4px solid var(--accent);
+      padding-left: 16px;
+      margin-bottom: 30px;
+    }
+    .project h3 {
+      margin-bottom: 6px;
+      color: var(--fg);
+    }
+    .project img {
+      max-width: 100%;
+      margin-top: 12px;
+      border-radius: 4px;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      background-color: #1e1e1e;
+      color: #888;
+      font-size: 0.9rem;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header>
+    <h1>Jack Simm</h1>
+    <p>Product Designer / Product Development Manager</p>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am a passionate product designer currently studying at Middlesex University. With a background in manufacturing and engineering, I combine hands-on industry experience with creative design thinking. My journey has included apprenticeships, technical education, and working with tier-one automotive suppliers.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Product Development Manager</strong> – Fabb Brothers (2024)</li>
+      <li><strong>Kaizen Team</strong> – Unipres UK (2022–2023)</li>
+      <li><strong>Cost Planning</strong> – Unipres UK (2021–2022)</li>
+      <li><strong>Engineering Maintenance Technician</strong> – Unipres UK (2017–2021)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Grown With Care</h3>
+      <p>A smart plant pot system that uses sensors to monitor moisture and ownership duration. Includes potential for app connectivity and user interaction feedback via visual indicators.</p>
+      <img src="IMG_0633.PNG" alt="Grown With Care" />
+    </div>
+    <div class="project">
+      <h3>Jerry Can Tool</h3>
+      <p>Developed an ergonomic tool for chefs to open slippery jerry cans in commercial kitchens. Focused on CAD precision, physical testing, and fit tolerance.</p>
+      <img src="Artboard 1.JPG" alt="Jerry Can Tool" />
+    </div>
+    <div class="project">
+      <h3>Transport Device</h3>
+      <p>A two-year design journey exploring mobility solutions. Combined original manufacturer parts with modern innovations for improved usability.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p><strong>Software:</strong> Illustrator, InDesign, Photoshop, SolidWorks, Keyshot, Shapr3D</p>
+    <p><strong>Capabilities:</strong> CAD modeling, rapid prototyping, product development, user-centered design</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: jack.simm.design@gmail.com</p>
+    <p>Phone: +44 7375845 232</p>
+    <p>Location: London</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Jack Simm – Portfolio
+  </footer>
+</body>
+</html>
+Create index.html with portfolio content
